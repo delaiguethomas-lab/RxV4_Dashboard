@@ -1,0 +1,12 @@
+# Copiez ce fichier en "config.txt" (a cote de l'exe) si vous voulez
+# regler le programme. Tout est optionnel : sans config.txt, le programme
+# demande le dossier des logs au premier lancement puis s'en souvient.
+
+# Dossier racine des logs (un sous-dossier par machine/site, puis un par jour)
+LOG_ROOT=
+
+# Fenetre de deduplication des erreurs, en secondes (defaut : 5)
+DEDUP_SECONDS=5
+
+# Rechargement automatique des logs toutes les N secondes (0 = desactive)
+REFRESH_SECONDS=0
